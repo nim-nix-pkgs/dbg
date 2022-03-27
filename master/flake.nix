@@ -11,6 +11,7 @@
   inputs.src-dbg-master.ref   = "refs/heads/master";
   inputs.src-dbg-master.owner = "enthus1ast";
   inputs.src-dbg-master.repo  = "nimDbg";
+  inputs.src-dbg-master.dir   = "";
   inputs.src-dbg-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
